@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json.schemastore.org/solidaritySchema",
+  "requirements": {
+    "bun": [
+      {
+        "rule": "cli",
+        "binary": "bun",
+        "version": "--version",
+        "semver": ">=1.1"
+      }
+    ],
+    "Cocoapods": [
+      {
+        "rule": "cli",
+        "binary": "pod",
+        "semver": ">=1.10"
+      }
+    ],
+    "swiftlint": [
+      {
+        "rule": "cli",
+        "binary": "swiftlint",
+        "semver": ">=0.43"
+      }
+    ],
+    "Xcode": [
+      {
+        "rule": "cli",
+        "binary": "xcodebuild",
+        "semver": ">=15",
+        "platform": "darwin"
+      },
+      {
+        "rule": "cli",
+        "binary": "xcrun",
+        "semver": ">=68",
+        "platform": "darwin"
+      }
+    ]
+  }
+}
